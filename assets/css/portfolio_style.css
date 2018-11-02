@@ -1,0 +1,239 @@
+
+  /* -------------------- Nav bar and pages links  --------------------*/
+
+  nav {
+    background: white;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    position: fixed;
+    right: 0px;
+    width: 100%;
+    z-index: 4;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    margin-right: 200px;
+    
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    background-color: gray;
+}
+
+#about {
+    border-right: 1px solid #bbb;
+}
+
+#portfolioTab {
+    border-right: 1px solid #bbb;
+
+}
+
+/* -------------------- Name box --------------------*/
+
+#name {
+    background: #128e97;
+    color: white;
+    padding: 20px;
+    width: 155px;
+    position: absolute;
+    left: 200px;
+    top: -10px;
+   
+    
+    
+}
+
+/* -------------------- Background --------------------*/
+
+
+body {
+    background-image: url("http://i63.tinypic.com/70fb6b.jpg");
+}
+
+/* -------------------- Content --------------------*/
+
+.wrapper {
+    background: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 925px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+    top: 125px;
+    z-index: 3;
+    
+}
+
+#portfolio {
+    color: #128e97;
+    width: 870px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+    font-size: 36px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+#one {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
+#textOne {
+    position: absolute;
+    bottom: 70px;
+    left: 30px;
+    background: #128e97;
+    color: white;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+}
+
+#two {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
+#textTwo {
+    position: absolute;
+    bottom: 70px;
+    left: 250px;
+    background: #128e97;
+    color: white;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+}
+
+#three {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
+#textThree {
+    position: absolute;
+    bottom: 70px;
+    left: 470px;
+    background: #128e97;
+    color: white;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+}
+
+#four {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+} 
+
+#textFour {
+    position: absolute;
+    bottom: 70px;
+    left: 690px;
+    background: #128e97;
+    color: white;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* -------------------- Footer --------------------*/
+
+#footer {
+    background: gray;
+    border-top: 5px solid #128e97;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    overflow: hidden;
+    z-index: 4;
+   
+
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+/* -------------------- Media querries --------------------*/
+
+@media only screen and (max-width: 980px) {
+    body {
+      background: #333;
+    }
+  
+    .wrapper {
+      width: 100%;
+      padding: 20px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      background: rgb(120, 209, 231);
+    }
+  
+    .wrapper {
+      width: 100%;
+      padding: 20px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 640px) {
+    body {
+      background: rgb(216, 228, 161);
+    }
+  
+    .wrapper {
+      width: 100%;
+      padding: 20px;
+    }
+
+    nav {
+        position: static;
+    }
+  
+  } 
